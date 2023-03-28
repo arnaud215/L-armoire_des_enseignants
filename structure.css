@@ -1,0 +1,183 @@
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#logotitle {
+    height: 50px;
+    bottom : -12px;
+    left : 4px;
+    position: relative;
+}
+
+body {
+    display: grid;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
+    grid-template-rows: 100% ; /* Une ligne de hauteur 100px */
+    margin-top: 100px;
+}
+
+  .texteargu {
+    margin-left: 10%;
+    padding: 10px;
+  }
+.texteargu>h4 {
+    text-align: center;
+}
+
+.troisicones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+}
+
+.direction {
+    display: grid;
+    justify-content: center;
+}
+
+#réseau {
+    height: 50px;
+
+}
+.chrono{
+    display: grid;
+    justify-content: center;
+}
+#chrono {
+    height: 50px;
+}
+
+.réseau {
+    display: grid;
+    justify-content: center;
+}
+
+#direction {
+    height: 50px;
+}
+
+
+
+.form {
+    display: grid;
+    place-items: center;
+}
+
+.form>h4 {
+    text-align: center;
+}
+
+input {
+    display :block;
+    border-radius: 10px;
+    border-color: lightgray;
+    outline: none;   /*enlever la ligne autour quand on click */
+    -webkit-appearance: none;
+    appearance: none;
+} 
+
+
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    margin-top: 150px;
+}
+
+
+
+.grid-item3 {
+    display: grid;
+    justify-content: right;
+}
+
+#imagetémoignage {
+   height: 300px;
+}
+.grid-item4 {
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    margin-top: 100px;
+}
+
+
+.grid-item5 {
+    text-align: center;
+    padding: 50px;
+}
+
+.grid-item6 {
+    display: grid;
+    justify-content: left;
+}
+#imageétudiant {
+    height: 300px;
+ }
+ 
+
+
+
+
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    margin-top: 100px;
+}
+
+
+.grid-item7 {
+    display: grid;
+    justify-content: right;
+}
+
+.grid-item8 {
+text-align: center;
+    padding: 50px;
+}
+
+#imagemoi {
+    height: 300px;
+}
+
+
+
+/* footer */
+footer {
+    background: #333;;
+    height: 100px;
+    margin-top: 50px;
+    padding: 30px 20px;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+}
+
+footer a{
+    color:rgb(255, 184, 104) ;
+}
+
+.copyright {
+  text-align: center;
+  position:relative;
+  bottom: 0;
+}

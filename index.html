@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="structure.css">
+<title>L'armoire des enseignants</title>
+<link rel="shortcut icon" href="logo.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<h1>L'<img src="/img/logo.png" alt="mini logo dans le titre" id="logotitle">rmoire des enseignants</h1>
+
+    <div class="grid-container1">
+        <div class="grid-item">
+            <div class="texteargu">
+                <h4> Trouver des idées facilement pour faire vos préparations.</h4>
+                <p>Avec ce moteur de recherche spécialement dirigé vers des sites qui proposent des ressources gratuites et téléchargeables, trouvez <strong>en seulement deux click </strong>une idée pour vos leçons !</p>
+                  <div class="troisicones">
+                    <div class="direction"><img src="/img/direction.png" id="direction" alt="flèches directionnelles icone"></div>
+                    <div class="chrono"><img src="/img/urgent.png" id="chrono" alt="chronomètre icone"></div>
+                    <div class="réseau"><img src="/img/partager.png" id="réseau" alt="réseau de partage icone"></div>
+                  </div>
+            </div>
+        </div>
+    
+        <div class="grid-item">
+            <div class="form">
+                <h4>Si vous voulez essayez, créez vous un compte.</h4>
+                <form>
+                   <div class="inputname">
+                   <input type="name" id="origine" name="name" placeholder="Entrez votre Prénom">
+                   <br>
+                   </div> 
+                   <div class="inputemail">
+                   <input type="email" id="email" name="email" placeholder="Entrez votre adresse Email">
+                   <br>
+                   </div>
+                   <div class="inputmdp">
+                   <Input type="text" id="mdp" placeholder="Créez votre mot de passe"></Input>
+                   <br>
+                   </div>
+          
+                   <a href="./Page de recherche.html">
+                   <input type="button" value="C'est parti !" id="buttonsearch">
+                   </a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-container2">
+        <div class="grid-item3">
+            <img src="/img/enseignantronde.png" alt="image d'enseignante" id="imagetémoignage">
+        </div>
+
+        <div class="grid-item4">
+            <h4> Le partage, une valeur communautaire.</h4>
+            <p> Ce moteur de recherche est collaboratif, afin de trouver plus de ressources, proposez vous aussi un lien vers votre site, votre blog. Si vous n'en avez pas, partagez votre préparation en format PDF via le bouton " je partage mes ressources". </p>
+        </div>
+    </div>
+
+
+
+    <div class="grid-container3">
+        <div class="grid-item5">
+            <h4> Cet outil a été testé et approuvé </h4>
+            <p>Pour fournir à tous le meilleur outil en ligne possible. Le moteur de recherche a été testé préalablement par des étudiants en stage. 
+            Ils ont ainsi pu trouver de l'inspiration pour leurs créations et créer eux-même leur première préparation. 
+            </p>
+        </div>
+    
+        <div class="grid-item6">
+            <img src="/img/Imageétudiant.png" alt="groupe de stagiaires qui ont testé le moteur" id="imageétudiant">
+        </div>
+    </div>
+
+    <div class="grid-container4">
+        <div class="grid-item7">
+            <img src="/img/photoprofil.png" alt="photo de profil créateur du site web" id="imagemoi">
+       </div>
+ 
+       <div class="grid-item8">
+            <h4> Mon idée !</h4>
+            <p>En faisant des remplacements, j'ai eu besoin de ressources rapidement. J'ai remarqué que les ressources sur internet n'étaient pas facilement trouvables mais que certains partageaient déjà plein de ressources intéressantes. 
+            J'ai donc décidé de créer moi-même un site qui regroupe des blogs et plateformes de l'enseignement sur internet au travers d'un moteur de recherche et d'une liste des liens présents dans le moteur, afin que vous puissiez trouver plus facilement votre bonheur
+            et les pépites pédagogiques !
+            </p>
+       </div>
+     </div>
+
+<footer>
+  <div class="footer">
+    <p> Cet outil a été mis en place en collaboration avec l'Yncubator de Louvain-La-Neuve. </p>
+
+   <P>Si vous rencontrez un problème important avec le site internet,<a href="mailto:arnaudmattelart2000@gmail.com">écrivez moi</a> ! </P>
+  </div>
+  
+  <div class="copyright">
+    <p>Copyright ... Ce site est protégé par les droits d'auteurs pour plus d'informations cliquez<span><a href="page d'explication">ici</a></span>.</p>
+  </div>
+</footer>
+
+
+ <!-- Les fichiers javascript doivent être lus en dernier. -->
+<script src="./index.js"></script>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBdCcxii0RMelN88YQ2QXuhEuWMs9lMqss",
+      authDomain: "l-armoire-des-enseignant-3882f.firebaseapp.com",
+      projectId: "l-armoire-des-enseignant-3882f",
+      storageBucket: "l-armoire-des-enseignant-3882f.appspot.com",
+      messagingSenderId: "311052600567",
+      appId: "1:311052600567:web:bb6a2a8cf8dfd6247efff2",
+      measurementId: "G-MKMBDV7CZS"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+</html>
